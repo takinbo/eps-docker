@@ -14,8 +14,8 @@ docker build -t eps .
 
 ## Configuration
 
-A sample of the configuration settings is in `data/config-sample.cfg`. Rename 
-this to `data/config.cfg` and edit the file to match your preferences.
+A sample of the configuration settings is in `data/config.ini`. Edit 
+the file to match your preferences.
 
 You will need to update the IP address of the bitcoind host in the `[bitcoin-rpc]` 
 section and possibly the path for the `datadir`. This will be `/root/.bitcoin` 
